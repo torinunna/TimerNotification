@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		863C21462AA61A0F005D07DF /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C21452AA61A0F005D07DF /* NotificationService.swift */; };
+		863C21482AA61A1D005D07DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C21472AA61A1D005D07DF /* AppDelegate.swift */; };
+		863C214A2AA61F3A005D07DF /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C21492AA61F3A005D07DF /* TimerView.swift */; };
+		863C214C2AA625BE005D07DF /* TimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C214B2AA625BE005D07DF /* TimeViewModel.swift */; };
+		863C214E2AA625C5005D07DF /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C214D2AA625C5005D07DF /* Time.swift */; };
 		86A9F6592AA4C2C600761F2D /* TimerNotificationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9F6582AA4C2C600761F2D /* TimerNotificationApp.swift */; };
-		86A9F65B2AA4C2C600761F2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A9F65A2AA4C2C600761F2D /* ContentView.swift */; };
 		86A9F65D2AA4C2C700761F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A9F65C2AA4C2C700761F2D /* Assets.xcassets */; };
 		86A9F6602AA4C2C700761F2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A9F65F2AA4C2C700761F2D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		863C21452AA61A0F005D07DF /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		863C21472AA61A1D005D07DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		863C21492AA61F3A005D07DF /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		863C214B2AA625BE005D07DF /* TimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewModel.swift; sourceTree = "<group>"; };
+		863C214D2AA625C5005D07DF /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 		86A9F6552AA4C2C600761F2D /* TimerNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A9F6582AA4C2C600761F2D /* TimerNotificationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerNotificationApp.swift; sourceTree = "<group>"; };
-		86A9F65A2AA4C2C600761F2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86A9F65C2AA4C2C700761F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86A9F65F2AA4C2C700761F2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				86A9F6582AA4C2C600761F2D /* TimerNotificationApp.swift */,
-				86A9F65A2AA4C2C600761F2D /* ContentView.swift */,
+				863C21472AA61A1D005D07DF /* AppDelegate.swift */,
+				863C21452AA61A0F005D07DF /* NotificationService.swift */,
+				863C21492AA61F3A005D07DF /* TimerView.swift */,
+				863C214B2AA625BE005D07DF /* TimeViewModel.swift */,
+				863C214D2AA625C5005D07DF /* Time.swift */,
 				86A9F65C2AA4C2C700761F2D /* Assets.xcassets */,
 				86A9F65E2AA4C2C700761F2D /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86A9F65B2AA4C2C600761F2D /* ContentView.swift in Sources */,
+				863C214E2AA625C5005D07DF /* Time.swift in Sources */,
+				863C21482AA61A1D005D07DF /* AppDelegate.swift in Sources */,
+				863C214C2AA625BE005D07DF /* TimeViewModel.swift in Sources */,
+				863C21462AA61A0F005D07DF /* NotificationService.swift in Sources */,
+				863C214A2AA61F3A005D07DF /* TimerView.swift in Sources */,
 				86A9F6592AA4C2C600761F2D /* TimerNotificationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
