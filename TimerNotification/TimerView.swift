@@ -20,7 +20,11 @@ struct TimerView: View {
             HStack {
                 Picker("Duration", selection: $timerViewModel.time.minutes) {
                     ForEach(durations, id: \.self) { duration in
-                        Text("\(duration)분")
+                        if duration >= 60 {
+                            Text("\(duration/60)시간")
+                        } else {
+                            Text("\(duration)분")
+                        }
                     }
                 }
                 .pickerStyle(SegmentedPickerStyle())
